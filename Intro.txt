@@ -1,0 +1,6 @@
+I have choosen Node.js framework and node-schedule npm package.
+My approach was first to run a loop for all events, then call the trigger function scheduleItem/
+In the scheduleItem function I have scheduled the job for the given time using scheduleJob function of node-scheduler.
+Then I have call the delay function for the text length time and after that time i have console the given string backwards using reverseString function.
+One of the problems i have faced was how to schedule a job for a given date and time. For that i have to search a lot and after that i found the node-schedule package which if very good for scheduling a job at a given date.
+   
